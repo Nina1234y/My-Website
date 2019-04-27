@@ -1,0 +1,144 @@
+
+h1 { /* notes */
+  text-align: center;
+  color: white;
+  font-size: 500%;
+  padding-top: 100px;
+}
+h2 {
+  text-align: center;
+  color: yellow;
+  font-size: 300%;
+  padding-bottom: 150px;
+
+}
+
+.main_view {
+  background-image:url('images/pic4.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-left: 10px solid black;
+  border-right: 10px solid black;
+  border-bottom: 50px solid black;
+  border-top: 50px solid black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* ---- About section ---- */
+
+.my_pic {
+  width: 25%;
+  height: 590px;
+
+  background-image:url('images/me2.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+  float: left;
+  border: 10px solid black;
+}
+
+.about_text {
+  width: 70%;
+  height: 590px;
+  text-align: justify;
+  float: left;
+  vertical-align: middle;
+  font-size: 200%;
+  padding: 25px;
+  color: #64C6F0;
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
+/* ---- Skills ---- */
+
+.skills_text {
+  width: 10%;
+  height: 220px;
+  color: black;
+  font-size: 400%;
+  background-color: white;
+  border-top: 50px solid black;
+  float: left;
+}
+
+.skills_container {
+  width: 90%;
+  float: right;
+  display: grid;
+  grid-template-columns: 70px 70px 70px 70px 70px;
+  grid-template-rows: 70px 70px;
+  grid-gap: 10px;
+  background-color: white;
+  padding: 10px;
+  border-right: 10px solid black;
+  border-top: 50px solid black;
+  border-bottom: 50px solid black;
+}
+
+.skills_spec1 {
+  background-image:url('images/skills/java.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec2 {
+  background-image:url('images/skills/c.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec3 {
+  background-image:url('images/skills/matlab.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec4 {
+  background-image:url('images/skills/perl.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec5 {
+  background-image:url('images/skills/html.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec6 {
+  background-image:url('images/skills/css.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  }
+.skills_spec7 {
+  background-image:url('images/skills/js.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec8 {
+  background-image:url('images/skills/phyton.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.skills_spec9 {
+  background-image:url('images/skills/office.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.skills_spec10 {
+  background-image:url('images/skills/office.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
