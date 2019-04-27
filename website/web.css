@@ -1,4 +1,5 @@
 
+
 h1 { /* notes */
   text-align: center;
   color: white;
@@ -22,7 +23,6 @@ h2 {
   border-bottom: 50px solid black;
   border-top: 50px solid black;
 }
-
 
 * {
   box-sizing: border-box;
@@ -58,22 +58,26 @@ h2 {
 /* ---- Skills ---- */
 
 .skills_text {
-  width: 10%;
-  height: 220px;
+  width: 40%;
+  height: 250px;
   color: black;
-  font-size: 400%;
   background-color: white;
   border-top: 50px solid black;
+  border-left: 10px solid black;
   float: left;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 400%;
+  padding-top: 60px;
 }
 
 .skills_container {
-  width: 90%;
-  float: right;
+  width: 60%;
+  float: left;
   display: grid;
   grid-template-columns: 70px 70px 70px 70px 70px;
   grid-template-rows: 70px 70px;
-  grid-gap: 10px;
+  grid-gap: 40px;
   background-color: white;
   padding: 10px;
   border-right: 10px solid black;
@@ -137,8 +141,14 @@ h2 {
 }
 
 .skills_spec10 {
-  background-image:url('images/skills/office.png');
+  background-image:url('images/skills/git.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
+}
+
+/* ---- Projects ---- */
+.proj_title {
+    width: 100%;
+    color: white;
 }
