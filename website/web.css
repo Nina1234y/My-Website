@@ -1,4 +1,4 @@
-
+/* ---- Navigation bar ---- */
 #navbar {
   overflow: hidden;
   background-color: #001933;
@@ -49,22 +49,33 @@ hr {
   border: 0;
   clear:both;
   display:block;
-  width: 96%;
+  width: 100%;
   background-color:black ;
   opacity: 0.2;
   height: 1px;
 }
 
 * {
-        margin: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-        font-size: 100%;
-        vertical-align: baseline;
-        background: transparent;
-    }
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* ---- header ---- */
 .main_view h1 {
   text-align: center;
   color: white;
@@ -93,18 +104,7 @@ hr {
   opacity: .98;
 }
 
-* {
-  box-sizing: border-box;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /* ---- About section ---- */
-
 .my_pic {
   width: 30%;
   height: 600px;
@@ -134,18 +134,6 @@ hr {
 }
 
 /* ---- Skills ---- */
-
-.skills_text {
-  width: 100%;
-  min-width: 480px;
-  color: black;
-  background-color: white;
-  float: left;
-  text-align: center;
-  font-size: 400%;
-  text-decoration: underline;
-}
-
 .skills_container > *{
   width: 33%;
   float: left;
@@ -198,7 +186,7 @@ hr {
   background-position: center;
   }
 .skills_spec7 {
-  background-image:url('images/skills/js.png');
+  background-image:url('images/skills/git.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -217,26 +205,28 @@ hr {
 }
 
 .skills_spec10 {
-  background-image:url('images/skills/git.png');
+  background-image:url('images/skills/js.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 /* ---- Projects ---- */
-.proj_title {
+.title {
     width: 100%;
     color: black;
     text-align: center;
-    font-size: 400%;
+    font-size: 350%;
     text-decoration: underline;
 }
 
 .proj_template {
-  font-size: 180%;
+  font-size: 160%;
   width: 100%;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-style: inset;
   padding: 20px;
+  background-color: #ECF5FF;
 }
 
 .button {
@@ -256,3 +246,12 @@ hr {
   opacity: 0.8;
 }
 
+/* ---- Work Experience ---- */
+.work_template {
+  font-size: 160%;
+  width: 100%;
+  border: 5px solid black;
+  border-style: inset;
+  padding: 50px;
+  background-color: #ECF5FF;
+}

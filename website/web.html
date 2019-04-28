@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
-  <head> 
-  <!--  <link rel="icon" href="images/atom.png" type="image/png" sizes="16x16"> -->
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="web.css">
     <meta charset="utf-8">
@@ -18,20 +17,20 @@
     </div>
 
     <div id="navbar">
-      <a href="javascript:void(0)">About</a>
-      <a href="javascript:void(0)">Skills</a>
-      <a href="javascript:void(0)">Projects</a>
-      <a href="javascript:void(0)">Work Experience</a>
-      <a href="javascript:void(0)">Contact</a>
+      <a href="#about_id">About</a>
+      <a href="#skills_id">Skills</a>
+      <a href="#proj_id">Projects</a>
+      <a href="#work_id">Work Experience</a>
+      <a href="#contact_id">Contact</a>
     </div>
 
     <div class="content">
 
         <!-- The about section -->
         <div class="row">
-          <div class="my_pic"></div>
+          <div class="my_pic" id="about_id"></div>
           <div class="about_text">
-            <h1>About me:</h1>
+            <h1>About me:</h1><br>
             <p>
             My name is Nina Yanin and I am a third year Software Engineering student
             at Lassonde School of Engineering at York University. I chose Software
@@ -60,10 +59,10 @@
         </div>
 
         <!-- The skills section -->
-        <br><hr><br><br><br>
+        <br><hr id="skills_id"><br><br><br>
 
         <div class="row">
-          <div class="skills_text">Skills:</div>
+          <div class="title">Skills</div>
         </div>
         <div class="row">
           <div class="skills_container">
@@ -76,21 +75,21 @@
             <div class="skills_spec7"></div>
             <div class="skills_spec8"></div>
             <div class="skills_spec9"></div>
-            <div class="skills_spec10"></div>
+    <!--        <div class="skills_spec10"></div>  -->
           </div>
         </div>
 
         <!-- The project section -->
-        <hr><br><br><br>
+        <hr id="proj_id"><br><br><br>
 
-        <div class="proj_title">Projects:</div>
+        <div class="title">Projects</div>
         <br><br><br><br>
         <div class="proj_template">
           <p style="font-weight: bold;">Website:</p><br>
           <p>I built this website in the break between the winter and summer semester.
              Working on the website has improved my html, css and javascript skills.
           </p><br>
-          <p style="text-decoration: underline;">Skills used:</p><p>html, css and javascript</p><br>
+          <p style="text-decoration: underline;">Technologies used:</p><p>html, css and javascript</p><br>
           <a class="button" href="https://github.com/Nina1234y/My-Website" target="_blank">
           Check source code</a>
         </div>
@@ -102,7 +101,7 @@
              as part of EECS2311 class. The purpose of the talk box is to assist people with
              mental or physical disabilities, which prevents them from talking, to communicate.
           </p><br>
-          <p style="text-decoration: underline;">Skills used: </p>
+          <p style="text-decoration: underline;">Technologies used: </p>
           <p>Java, eclipse, Gradle, Circle CI</p><br>
           <a class="button" href="https://github.com/ryang-123/EECS2311-Project" target="_blank">
           Check source code</a>
@@ -115,7 +114,7 @@
              and winter semester. I decided to work on it to practive the learned concepts of the fall
              semester.
           </p><br>
-          <p style="text-decoration: underline;">Skills used: </p>
+          <p style="text-decoration: underline;">Technologies used: </p>
           <p>Java, eclipse</p><br>
           <a class="button" href="https://github.com/Nina1234y/Who_Wants_To_Be_A_Millionaire" target="_blank">
           Check source code</a>
@@ -128,13 +127,88 @@
              and winter semester. I decided to work on it to practive the learned concepts of the fall
              semester.
           </p><br>
-          <p style="text-decoration: underline;">Skills used: </p>
+          <p style="text-decoration: underline;">Technologies used: </p>
           <p>Java, eclipse</p><br>
           <a class="button" href="https://github.com/Nina1234y/Tic-Tac-Toe" target="_blank">
           Check source code</a>
         </div>
 
         <!-- The work experience section -->
+        <br><br><br ><hr id="work_id"><br><br><br>
+        <div class="title">Work Experience</div>
+        <br><br><br><br>
+        <div class="work_template">
+          <p style="font-weight: bold;">Cashier, Aramark, Glendon Campus, York University, Toronto, Canada</p><br>
+          <p>August 2018 - April 2019</p><br>
+          <ul>
+            <li>Managed a fast paced environment in serving customers while maintaining
+                good customer service experience and thoroughly representing company values</li>
+            <li>Maintained and inspected surroundings to meet company safety requirements
+                by eliminating potential hazards such as sharp obstacles and liquid spills</li>
+            <li>Was responsible to process payment in the point of sale</li>
+          </ul>
+        </div>
+
+        <br>
+        <div class="work_template">
+          <p style="font-weight: bold;">Cashier and Baker, MO's Golden Pretzel, Toronto, Canada</p><br>
+          <p>June 2018 - August 2018</p><br>
+          <ul>
+            <li>Collaborated with co-workers to maintain a safe work environment
+                by removing hazards and reporting to manager of unsafe conditions</li>
+            <li>Constantly communicated with team members on procedures and
+                timing during the shift in order to deliver excellent product</li>
+            <li>Processed payments in the point of sale</li>
+          </ul>
+        </div>
+
+        <br>
+        <div class="work_template">
+          <p style="font-weight: bold;">Inbound Call Center Representative, Randstand, Salvation Army assignment, Toronto, Canada</p><br>
+          <p>August 2017 - September 2017</p><br>
+          <ul>
+            <li>Received calls from people who wanted to donate for the
+                Hurricane Harvey Disaster</li>
+            <li>Processed donations and record it in the online donation page</li>
+            <li>Provided information about different options to donate</li>
+          </ul>
+        </div>
+
+        <br>
+        <div class="work_template">
+          <p style="font-weight: bold;">Inbound Call Center Representative, Randstand, Red Cross assignment, Toronto, Canada</p><br>
+          <p>July 2017 - August 2017</p><br>
+          <ul>
+            <li>Answered costumers' inqueries regarding the British Colombia wild fires
+                and provided information about thier rights</li>
+            <li>Updated costumers' information in the Red Cross Database</li>
+            <li>Provided exceptional customer service experience</li>
+          </ul>
+        </div>
+
+        <br>
+        <div class="work_template">
+          <p style="font-weight: bold;">Technical Support Representative, Interspace, Israel</p><br>
+          <p>February 2016 - June 2016</p><br>
+          <ul>
+            <li>Configured email addresses in POP3 and IMAP</li>
+            <li>Solved problems on websites, emails and domains in a timely manner</li>
+            <li>Constantly maintained high level of customer service experience</li>
+            <li>Assisted developers to implement company's APIs
+          </ul>
+        </div>
+
+        <br>
+        <div class="work_template">
+          <p style="font-weight: bold;">System Administrator, IDF, Israel</p><br>
+          <p>August 2013 - February 2016</p><br>
+          <ul>
+            <li>Configured email addresses in POP3 and IMAP</li>
+            <li>Solved problems on websites, emails and domains in a timely manner</li>
+            <li>Constantly maintained high level of customer service experience</li>
+            <li>Assisted developers to implement company's APIs
+          </ul>
+        </div>
 
         <!-- The contact info section -->
     </div>
