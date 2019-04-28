@@ -2,57 +2,144 @@
 
 <html lang="en" dir="ltr">
   <head>
-    <style>
-    body {
-      background-color: black;
-    }
-    </style>
-
-    <link rel="stylesheet" href="web.css">
-    <script type="text/javascript" src=""></script>
-    <meta charset="utf-8">
+  <!--  <link rel="icon" href="images/atom.png" type="image/png" sizes="16x16"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="web.css">
+    <meta charset="utf-8">
     <title>Nina Yanin</title>
   </head>
 
   <body>
+    <!-- Top bar menu -->
     <!-- The main view section -->
     <div class="main_view">
         <h1>Nina Yanin</h1>
         <h2>Software Engineering Student</h2>
     </div>
 
-    <!-- The about section -->
-    <div class="my_pic"></div>
-    <div class="about_text">
-      My name is Nina Yanin and I am a third year Software Engineering student
-      at Lassonde School of Engineering at York University. I chose Software
-      Engineering because I have a passion for technology and innovation.
-      In addition, I enjoy solving complex problems and learning new things.
-      Most importantly, I want to take part in creating a difference via
-      technological advancements.
+    <div id="navbar">
+      <a href="javascript:void(0)">About</a>
+      <a href="javascript:void(0)">Skills</a>
+      <a href="javascript:void(0)">Projects</a>
+      <a href="javascript:void(0)">Work Experience</a>
+      <a href="javascript:void(0)">Contact</a>
     </div>
 
-    <!-- The skills section -->
-    <div class="skills_text">Skills:</div>
-    <div class="skills_container">
-      <div class="skills_spec1"></div>
-      <div class="skills_spec2"></div>
-      <div class="skills_spec3"></div>
-      <div class="skills_spec4"></div>
-      <div class="skills_spec5"></div>
-      <div class="skills_spec6"></div>
-      <div class="skills_spec7"></div>
-      <div class="skills_spec8"></div>
-      <div class="skills_spec9"></div>
-      <div class="skills_spec10"></div>
+    <div class="content">
+
+        <!-- The about section -->
+        <div class="row">
+          <div class="my_pic"></div>
+          <div class="about_text">
+            <h1>About me:</h1>
+            <p>
+            My name is Nina Yanin and I am a third year Software Engineering student
+            at Lassonde School of Engineering at York University. I chose Software
+            Engineering because I have a passion for technology and innovation.
+            In addition, I enjoy solving complex problems and learning new things.
+            Most importantly, I want to take part in creating a difference via
+            technological advancements.
+            </p>
+      <!--
+            <br>
+            <p>nina1234y@gmail.com</p><br>
+            <p>
+              Linkdin:
+              <a href="https://www.linkedin.com/in/nina-yanin-564b17178/" target="_blank">
+                <img src="images/in.png" style="width:50px;height:50px;border:0;">
+              </a>
+            </p><br>
+            <p>
+              Github:
+              <a href="https://github.com/Nina1234y" target="_blank">
+                <img src="images/skills/git.png" style="width:50px;height:50px;border:0;">
+              </a>
+            </p>
+      -->
+          </div>
+        </div>
+
+        <!-- The skills section -->
+        <br><hr><br><br><br>
+
+        <div class="row">
+          <div class="skills_text">Skills:</div>
+        </div>
+        <div class="row">
+          <div class="skills_container">
+            <div class="skills_spec1"></div>
+            <div class="skills_spec2"></div>
+            <div class="skills_spec3"></div>
+            <div class="skills_spec4"></div>
+            <div class="skills_spec5"></div>
+            <div class="skills_spec6"></div>
+            <div class="skills_spec7"></div>
+            <div class="skills_spec8"></div>
+            <div class="skills_spec9"></div>
+            <div class="skills_spec10"></div>
+          </div>
+        </div>
+
+        <!-- The project section -->
+        <hr><br><br><br>
+
+        <div class="proj_title">Projects:</div>
+        <br><br><br><br>
+        <div class="proj_template">
+          <p style="font-weight: bold;">Website:</p><br>
+          <p>I built this website in the break between the winter and summer semester.
+             Working on the website has improved my html, css and javascript skills.
+          </p><br>
+          <p style="text-decoration: underline;">Skills used:</p><p>html, css and javascript</p><br>
+          <a class="button" href="https://github.com/Nina1234y/My-Website" target="_blank">
+          Check source code</a>
+        </div>
+
+        <br>
+        <div class="proj_template">
+          <p style="font-weight: bold;">Talkbox:</p><br>
+          <p>I worked as part of a team to build a talkbox app configurator and simulator
+             as part of EECS2311 class. The purpose of the talk box is to assist people with
+             mental or physical disabilities, which prevents them from talking, to communicate.
+          </p><br>
+          <p style="text-decoration: underline;">Skills used: </p>
+          <p>Java, eclipse, Gradle, Circle CI</p><br>
+          <a class="button" href="https://github.com/ryang-123/EECS2311-Project" target="_blank">
+          Check source code</a>
+        </div>
+
+        <br>
+        <div class="proj_template">
+          <p style="font-weight: bold;">Who wants to be a millionaire:</p><br>
+          <p>A game of who wants to be a millionaire. I built this during the break between the fall
+             and winter semester. I decided to work on it to practive the learned concepts of the fall
+             semester.
+          </p><br>
+          <p style="text-decoration: underline;">Skills used: </p>
+          <p>Java, eclipse</p><br>
+          <a class="button" href="https://github.com/Nina1234y/Who_Wants_To_Be_A_Millionaire" target="_blank">
+          Check source code</a>
+        </div>
+
+        <br>
+        <div class="proj_template">
+          <p style="font-weight: bold;">Tic Tac Toe:</p><br>
+          <p>A game of Tic Tac Toe. I built this during the break between the fall
+             and winter semester. I decided to work on it to practive the learned concepts of the fall
+             semester.
+          </p><br>
+          <p style="text-decoration: underline;">Skills used: </p>
+          <p>Java, eclipse</p><br>
+          <a class="button" href="https://github.com/Nina1234y/Tic-Tac-Toe" target="_blank">
+          Check source code</a>
+        </div>
+
+        <!-- The work experience section -->
+
+        <!-- The contact info section -->
     </div>
 
-    <!-- The project section -->
-    <div class="proj_title">Projects</div>
-    <!-- The work experience section -->
-
-    <!-- The contact info section -->
+    <script type="text/javascript" src="web.js"></script>
 
   </body>
 </html>
