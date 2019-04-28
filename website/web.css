@@ -1,88 +1,164 @@
 
+#navbar {
+  overflow: hidden;
+  background-color: #001933;
+}
 
-h1 { /* notes */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+body {
+  margin: 0 auto;
+  height:100%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color:black ;
+  opacity: 0.2;
+  height: 1px;
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+
+.main_view h1 {
   text-align: center;
   color: white;
-  font-size: 500%;
-  padding-top: 100px;
+  font-size: 550%;
+  padding-top: 250px;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
 }
-h2 {
+.main_view h2 {
   text-align: center;
   color: yellow;
-  font-size: 300%;
-  padding-bottom: 150px;
-
+  font-size: 330%;
+  padding-bottom: 200px;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
 
 .main_view {
+  background-size: 100% auto;
   background-image:url('images/pic4.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-  border-left: 10px solid black;
-  border-right: 10px solid black;
-  border-bottom: 50px solid black;
-  border-top: 50px solid black;
+  background-size: cover;
+  height: 800px;
+  position: relative;
+  text-align: center;
+  opacity: .98;
 }
 
 * {
   box-sizing: border-box;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* ---- About section ---- */
 
 .my_pic {
-  width: 25%;
-  height: 590px;
-
+  width: 30%;
+  height: 600px;
+  min-width: 490px;
   background-image:url('images/me2.png');
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: left;
+  background-position: center;
   float: left;
-  border: 10px solid black;
+  background-color: white;
+  border-right: 15px solid white;
+
 }
 
 .about_text {
-  width: 70%;
-  height: 590px;
+  width: 60%;
+  min-width: 490px;
   text-align: justify;
   float: left;
   vertical-align: middle;
-  font-size: 200%;
-  padding: 25px;
-  color: #64C6F0;
-  padding-top: 200px;
-  padding-left: 100px;
+  font-size: 170%;
+  word-wrap: break-word;
+  color: black;
+  padding-top: 50px;
+  padding-right: 45px;
+  padding-left: 30px;
 }
 
 /* ---- Skills ---- */
 
 .skills_text {
-  width: 40%;
-  height: 250px;
+  width: 100%;
+  min-width: 480px;
   color: black;
   background-color: white;
-  border-top: 50px solid black;
-  border-left: 10px solid black;
   float: left;
   text-align: center;
-  vertical-align: middle;
   font-size: 400%;
-  padding-top: 60px;
+  text-decoration: underline;
 }
 
-.skills_container {
-  width: 60%;
+.skills_container > *{
+  width: 33%;
   float: left;
   display: grid;
-  grid-template-columns: 70px 70px 70px 70px 70px;
-  grid-template-rows: 70px 70px;
-  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fill, 70px);
+  grid-template-rows: repeat(auto-fill, 70px);
+  grid-auto-flow: row;
+  grid-gap: 70px;
   background-color: white;
-  padding: 10px;
-  border-right: 10px solid black;
-  border-top: 50px solid black;
-  border-bottom: 50px solid black;
+  padding-left: 20px;
+  border-top: 50px solid white;
+  border-bottom: 50px solid white;
+
 }
 
 .skills_spec1 {
@@ -150,5 +226,33 @@ h2 {
 /* ---- Projects ---- */
 .proj_title {
     width: 100%;
-    color: white;
+    color: black;
+    text-align: center;
+    font-size: 400%;
+    text-decoration: underline;
 }
+
+.proj_template {
+  font-size: 180%;
+  width: 100%;
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.button {
+  background-color: #001933;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
