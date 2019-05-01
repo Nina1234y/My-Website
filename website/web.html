@@ -23,14 +23,16 @@
       <a href="#work_id">Work Experience</a>
       <a href="#contact_id">Contact</a>
     </div>
+    <hr  id="about_id"><br><br><br><br>
 
     <div class="content">
 
         <!-- The about section -->
-        <div class="row">
-          <div class="my_pic" id="about_id"></div>
+
+        <div class="title">About me</div><br><br><br>
+        <div class="row" class="about_container">
+          <div class="my_pic"></div>
           <div class="about_text">
-            <h1>About me:</h1><br>
             <p>
             My name is Nina Yanin and I am a third year Software Engineering student
             at Lassonde School of Engineering at York University. I chose Software
@@ -39,179 +41,235 @@
             Most importantly, I want to take part in creating a difference via
             technological advancements.
             </p>
-      <!--
-            <br>
-            <p>nina1234y@gmail.com</p><br>
-            <p>
-              Linkdin:
-              <a href="https://www.linkedin.com/in/nina-yanin-564b17178/" target="_blank">
-                <img src="images/in.png" style="width:50px;height:50px;border:0;">
-              </a>
-            </p><br>
-            <p>
-              Github:
-              <a href="https://github.com/Nina1234y" target="_blank">
-                <img src="images/skills/git.png" style="width:50px;height:50px;border:0;">
-              </a>
-            </p>
-      -->
-          </div>
-        </div>
+          </div> <!-- about_text -->
+        </div> <!-- row + about_container -->
 
         <!-- The skills section -->
         <br><hr id="skills_id"><br><br><br>
 
-        <div class="row">
-          <div class="title">Skills</div>
-        </div>
-        <div class="row">
-          <div class="skills_container">
-            <div class="skills_spec1"></div>
-            <div class="skills_spec2"></div>
-            <div class="skills_spec3"></div>
-            <div class="skills_spec4"></div>
-            <div class="skills_spec5"></div>
-            <div class="skills_spec6"></div>
-            <div class="skills_spec7"></div>
-            <div class="skills_spec8"></div>
-            <div class="skills_spec9"></div>
-    <!--        <div class="skills_spec10"></div>  -->
-          </div>
-        </div>
+        <div class="title">Skills</div>
+        <div class="skills_container">
+          <div class="skills_spec1"></div>
+          <div class="skills_spec2"></div>
+          <div class="skills_spec3"></div>
+          <div class="skills_spec4"></div>
+          <div class="skills_spec5"></div>
+          <div class="skills_spec6"></div>
+          <div class="skills_spec7"></div>
+          <div class="skills_spec8"></div>
+          <div class="skills_spec9"></div>
+        </div> <!-- skills_container -->
 
         <!-- The project section -->
         <hr id="proj_id"><br><br><br>
 
         <div class="title">Projects</div>
-        <br><br><br><br>
-        <div class="proj_template">
-          <p style="font-weight: bold;">Website:</p><br>
-          <p>I built this website in the break between the winter and summer semester.
-             Working on the website has improved my html, css and javascript skills.
-          </p><br>
-          <p style="text-decoration: underline;">Technologies used:</p><p>html, css and javascript</p><br>
-          <a class="button" href="https://github.com/Nina1234y/My-Website" target="_blank">
-          Check source code</a>
-        </div>
+        <br><br>
+        <div class="row">
+          <div class="gallery">
+          <img src="images/proj/website.png" alt="Forest" width="100%" height="200">
+            <div class="desc">
+              <p style="font-weight: bold;">Website:</p><br>
+              <p>I built this website in the break between the winter and summer semester.
+                 Working on the website has improved my html, css and javascript skills.
+              </p><br><br><br><br>
+              <p style="text-decoration: underline;">Technologies used:</p><p>html, css and javascript</p><br>
+              <a class="button" href="https://github.com/Nina1234y/My-Website" target="_blank">
+              Check source code</a>
+            </div> <!-- desc -->
+          </div> <!-- gallery -->
 
-        <br>
-        <div class="proj_template">
-          <p style="font-weight: bold;">Talkbox:</p><br>
-          <p>I worked as part of a team to build a talkbox app configurator and simulator
-             as part of EECS2311 class. The purpose of the talk box is to assist people with
-             mental or physical disabilities, which prevents them from talking, to communicate.
-          </p><br>
-          <p style="text-decoration: underline;">Technologies used: </p>
-          <p>Java, eclipse, Gradle, Circle CI</p><br>
-          <a class="button" href="https://github.com/ryang-123/EECS2311-Project" target="_blank">
-          Check source code</a>
-        </div>
+          <div class="gallery">
+          <img src="images/proj/talkbox.png" width="100%" height="200">
+            <div class="desc">
+              <p style="font-weight: bold;">Talkbox:</p><br>
+              <p>I worked as part of a team to build a talkbox app configurator and simulator
+                 as part of EECS2311 class. The purpose of the talk box is to assist people with
+                 mental or physical disabilities, which prevents them from talking, to communicate.
+              </p><br>
+              <p style="text-decoration: underline;">Technologies used: </p>
+              <p>Java, eclipse, Gradle, Circle CI</p><br>
+              <a class="button" href="https://github.com/ryang-123/EECS2311-Project" target="_blank">
+              Check source code</a>
+            </div> <!-- desc -->
+          </div> <!-- gallery -->
 
-        <br>
-        <div class="proj_template">
-          <p style="font-weight: bold;">Who wants to be a millionaire:</p><br>
-          <p>A game of who wants to be a millionaire. I built this during the break between the fall
-             and winter semester. I decided to work on it to practive the learned concepts of the fall
-             semester.
-          </p><br>
-          <p style="text-decoration: underline;">Technologies used: </p>
-          <p>Java, eclipse</p><br>
-          <a class="button" href="https://github.com/Nina1234y/Who_Wants_To_Be_A_Millionaire" target="_blank">
-          Check source code</a>
-        </div>
+          <div class="gallery">
+          <img src="images/proj/mill.png" width="100%" height="200">
+            <div class="desc">
+              <p style="font-weight: bold;">Who wants to be a millionaire:</p><br>
+              <p>A game of who wants to be a millionaire. I built this during the break between the fall
+                 and winter semester. I decided to work on it to practive the learned concepts of the fall
+                 semester.
+              </p><br><br><br>
+              <p style="text-decoration: underline;">Technologies used: </p>
+              <p>Java, eclipse</p><br>
+              <a class="button" href="https://github.com/Nina1234y/Who_Wants_To_Be_A_Millionaire" target="_blank">
+              Check source code</a>
+            </div> <!-- row -->
+          </div> <!-- gallery -->
 
-        <br>
-        <div class="proj_template">
-          <p style="font-weight: bold;">Tic Tac Toe:</p><br>
-          <p>A game of Tic Tac Toe. I built this during the break between the fall
-             and winter semester. I decided to work on it to practive the learned concepts of the fall
-             semester.
-          </p><br>
-          <p style="text-decoration: underline;">Technologies used: </p>
-          <p>Java, eclipse</p><br>
-          <a class="button" href="https://github.com/Nina1234y/Tic-Tac-Toe" target="_blank">
-          Check source code</a>
-        </div>
+          <div class="gallery">
+          <img src="images/proj/tic.png" width="100%" height="200">
+            <div class="desc">
+              <p style="font-weight: bold;">Tic Tac Toe:</p><br>
+              <p>A game of Tic Tac Toe. I built this during the break between the fall
+                 and winter semester. I decided to work on it to practive the learned concepts of the fall
+                 semester.
+              </p><br><br><br><br>
+              <p style="text-decoration: underline;">Technologies used: </p>
+              <p>Java, eclipse</p><br>
+              <a class="button" href="https://github.com/Nina1234y/Tic-Tac-Toe" target="_blank">
+              Check source code</a>
+            </div> <!-- desc -->
+          </div> <!-- gallery -->
+        </div> <!-- row -->
 
         <!-- The work experience section -->
-        <br><br><br ><hr id="work_id"><br><br><br>
+        <br><br><br><hr id="work_id"><br><br><br>
         <div class="title">Work Experience</div>
-        <br><br><br><br>
-        <div class="work_template">
-          <p style="font-weight: bold;">Cashier, Aramark, Glendon Campus, York University, Toronto, Canada</p><br>
-          <p>August 2018 - April 2019</p><br>
-          <ul>
-            <li>Managed a fast paced environment in serving customers while maintaining
-                good customer service experience and thoroughly representing company values</li>
-            <li>Maintained and inspected surroundings to meet company safety requirements
-                by eliminating potential hazards such as sharp obstacles and liquid spills</li>
-            <li>Was responsible to process payment in the point of sale</li>
-          </ul>
-        </div>
+        <br><br><br>
+
+        <button class="accordion_work">
+          Cashier, Aramark, Glendon Campus, York University, Toronto, Canada
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>August 2018 - April 2019</p><br>
+              Managed a fast paced environment in serving customers while maintaining
+                  good customer service experience and thoroughly representing company values
+              Maintained and inspected surroundings to meet company safety requirements
+                  by eliminating potential hazards such as sharp obstacles and liquid spills
+              Was responsible to process payment in the point of sale
+          </div>
+          <div class="aramark"></div>
+        </div> <!-- panel_work -->
+
+        <button class="accordion_work">
+          Cashier and Baker, MO's Golden Pretzel, Toronto, Canada
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>June 2018 - August 2018</p><br>
+
+              Collaborated with co-workers to maintain a safe work environment
+                  by removing hazards and reporting to manager of unsafe conditions
+              Constantly communicated with team members on procedures and
+                  timing during the shift in order to deliver excellent product
+              Processed payments in the point of sale
+          </div>
+          <div class="pretzel"></div>
+        </div> <!-- panel_work -->
+
+        <button class="accordion_work">
+          Inbound Call Center Representative, Randstand, Salvation Army assignment, Toronto, Canada
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>August 2017 - September 2017</p><br>
+
+               Received calls from people who wanted to donate for the
+                  Hurricane Harvey Disaster
+               Processed donations and record it in the online donation page
+               Provided information about different options to donate
+          </div>
+          <div class="army"></div>
+        </div> <!-- panel_work -->
+
+        <button class="accordion_work">
+          Inbound Call Center Representative, Randstand, Red Cross assignment, Toronto, Canada
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>July 2017 - August 2017</p><br>
+
+               Answered costumers' inqueries regarding the British Colombia wild fires
+                  and provided information about thier rights
+               Updated costumers' information in the Red Cross Database
+               Provided exceptional customer service experience
+          </div>
+          <div class="cross"></div>
+        </div> <!-- panel_work -->
+
+        <button class="accordion_work">
+          Technical Support Representative, Interspace, Israel
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>February 2016 - June 2016</p><br>
+             Configured email addresses in POP3 and IMAP
+             Solved problems on websites, emails and domains in a timely manner
+             Constantly maintained high level of customer service experience
+             Assisted developers to implement company's APIs
+          </div>
+          <div class="interspace"></div>
+        </div> <!-- panel_work -->
+
+        <button class="accordion_work">
+          System Administrator, IDF, Israel
+        </button>
+        <div class="panel_work">
+          <div class="panel_text">
+            <p>August 2013 - February 2016</p><br>
+             -----
+          </div>
+          <div class="idf"></div>
+        </div> <!-- panel_work -->
+
+<!--
+
+
 
         <br>
         <div class="work_template">
-          <p style="font-weight: bold;">Cashier and Baker, MO's Golden Pretzel, Toronto, Canada</p><br>
-          <p>June 2018 - August 2018</p><br>
-          <ul>
-            <li>Collaborated with co-workers to maintain a safe work environment
-                by removing hazards and reporting to manager of unsafe conditions</li>
-            <li>Constantly communicated with team members on procedures and
-                timing during the shift in order to deliver excellent product</li>
-            <li>Processed payments in the point of sale</li>
-          </ul>
-        </div>
+          <p style="font-weight: bold;">First Aid Provider volenteer, Magen David Adom, Israel</p><br>
+          <p> April 2013 - November 2011</p><br>
 
-        <br>
-        <div class="work_template">
-          <p style="font-weight: bold;">Inbound Call Center Representative, Randstand, Salvation Army assignment, Toronto, Canada</p><br>
-          <p>August 2017 - September 2017</p><br>
-          <ul>
-            <li>Received calls from people who wanted to donate for the
-                Hurricane Harvey Disaster</li>
-            <li>Processed donations and record it in the online donation page</li>
-            <li>Provided information about different options to donate</li>
-          </ul>
-        </div>
+             Joined ambulances and provided first aid treatment to patients under
+                the supervision of paramedics
+             Worked as part of a team to provide the best treatment for patients
+             Filled paperwork to summarize the patient's condition and given teatment
 
-        <br>
-        <div class="work_template">
-          <p style="font-weight: bold;">Inbound Call Center Representative, Randstand, Red Cross assignment, Toronto, Canada</p><br>
-          <p>July 2017 - August 2017</p><br>
-          <ul>
-            <li>Answered costumers' inqueries regarding the British Colombia wild fires
-                and provided information about thier rights</li>
-            <li>Updated costumers' information in the Red Cross Database</li>
-            <li>Provided exceptional customer service experience</li>
-          </ul>
         </div>
+-->
 
-        <br>
-        <div class="work_template">
-          <p style="font-weight: bold;">Technical Support Representative, Interspace, Israel</p><br>
-          <p>February 2016 - June 2016</p><br>
-          <ul>
-            <li>Configured email addresses in POP3 and IMAP</li>
-            <li>Solved problems on websites, emails and domains in a timely manner</li>
-            <li>Constantly maintained high level of customer service experience</li>
-            <li>Assisted developers to implement company's APIs
-          </ul>
-        </div>
+        <!-- Volunteering -->
+        <br><br><br><hr id="work_id"><br><br><br>
+        <div class="title">Volunteering</div>
+        <br><br><br>
 
-        <br>
-        <div class="work_template">
-          <p style="font-weight: bold;">System Administrator, IDF, Israel</p><br>
-          <p>August 2013 - February 2016</p><br>
-          <ul>
-            <li>Configured email addresses in POP3 and IMAP</li>
-            <li>Solved problems on websites, emails and domains in a timely manner</li>
-            <li>Constantly maintained high level of customer service experience</li>
-            <li>Assisted developers to implement company's APIs
-          </ul>
-        </div>
+        <button class="accordion_volunteer">
+          First Aid Provider volunteer, Magen David Adom, Israel
+        </button>
+        <div class="panel_volunteer">
+          <div class="panel_text">
+            <p> April 2013 - November 2011</p><br>
+             Joined ambulances and provided first aid treatment to patients under
+             the supervision of paramedics
+             Worked as part of a team to provide the best treatment for patients
+             Filled paperwork to summarize the patient's condition and given teatment
+             <br><br>
+             <a class="button" href="https://www.mdais.org/en/volunteers" target="_blank">
+             Check the program</a>
+          </div>
+          <div class="mda"></div>
+        </div> <!-- panel_work -->
+
 
         <!-- The contact info section -->
-    </div>
+        <br><br><br>
+
+
+    </div> <!-- content -->
+
+    <hr id="contact_id">
+    <ul>
+      <li><a>Email: nina27@my.yorku.ca</a></li>
+      <li><a href="https://www.linkedin.com/in/nina-yanin-564b17178/" target="_blank">
+        Linkdin: <img src="images/in.png" style="width:25px;height:25px;border:0;"></a></li>
+      <li><a href="https://github.com/Nina1234y" target="_blank">
+          Github: <img src="images/skills/git.png" style="width:25px;height:25px;border:0;"></a></li>
+    </ul>
 
     <script type="text/javascript" src="web.js"></script>
 
