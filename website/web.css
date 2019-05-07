@@ -78,6 +78,10 @@ body {
 }
 
 /* ---- General ----- */
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 
 html { height: 100%;}
 
@@ -186,7 +190,7 @@ img {vertical-align: middle;}
 .my_pic {
   width: 40%;
   height: 600px;
-  min-width: 490px;
+  min-width: 300px;
   background-image:url('images/me2.png');
   background-repeat: no-repeat;
   background-size: contain;
@@ -194,20 +198,21 @@ img {vertical-align: middle;}
   float: left;
   background-color: white;
   border-right: 15px solid white;
+  margin: 0px;
 }
 
 .about_text {
-  width: 40%;
-  min-width: 490px;
-  text-align: justify;
+  width: 55%;
+  min-width: 300px;
+  text-align: left;
   float: left;
   vertical-align: middle;
   font-size: 170%;
   word-wrap: break-word;
   color: black;
-  padding-top: 50px;
-  padding-right: 45px;
-  padding-left: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0px;
 }
 
 .about_container {
@@ -296,7 +301,8 @@ img {vertical-align: middle;}
 .gallery {
   border: 1px solid #ccc;
   float: left;
-  width: 350px;
+  max-width: 350px;
+  min-width: 280px;
   height: 100%;
   font-size:130%;
   margin: 25px;
@@ -373,6 +379,7 @@ img {vertical-align: middle;}
 
 .panel_text {
   width: 60%;
+  min-width: 300px;
   padding: 18px;
   float: left;
   text-align: left;
