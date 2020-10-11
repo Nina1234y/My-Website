@@ -1,0 +1,308 @@
+/*************************/
+/*      Background       */
+body {
+  background-color: black;
+}
+
+/*************************/
+/*      Header           */
+.header {
+  background-image:url('photos/butterfly.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 325px;
+  opacity: 1;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+/* Header text settings */
+.header > h1 {
+  color: #9D6108;
+  height: 100%;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  opacity: 1;
+  margin: 0;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: Bodoni-Poster, Avenir, Arial, Helvetica, sans-serif;
+}
+
+.button {
+  width: 250px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: #001933;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  font-size: 17px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  left:42%;
+  top: 250px;
+  text-decoration: none;
+  transform: translate(0%, 0%);
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 3;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+/*************************/
+/*      Template         */
+.job_title {
+  width: 40%;
+  height: 100%;
+  top: 20px;
+  float: left;
+  text-align: right;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.job_title > p{
+  font-size: 22px;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  line-height: 2;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  margin-left: 15%;
+}
+
+.job_desc {
+  width: 43%;
+  height: 100%;
+  float:right;
+  text-align: justify;
+  position: relative;
+  margin-right: 15%;
+}
+
+.job_desc > ul {
+  font-size: 20px;
+  line-height: 1.8;
+  text-align: left;
+  display: inline-block;
+  position: relative;
+  /*margin-top: 50px;*/
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+}
+
+/*************************/
+/*      MAGNA            */
+.container {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+/*************************/
+/*      Aramark          */
+.aramark_container {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+/*************************/
+/*  Salvation Army       */
+.SA_container {
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+/*************************/
+/*      Red Cross        */
+.RS_container {
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+  background-color: white;
+}
+
+/*************************/
+/*      INTERSPACE       */
+.interspace_container {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+/*************************/
+/*      FOOTER           */
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgba(255,255,255,0.3);
+  overflow: hidden;
+  position: relative;
+}
+
+.social_bar_work {
+  width: 100%;
+  height: 20%;
+  transform: translate(0%, 33px);
+  float: left;
+}
+
+/*************************/
+/*    Compatibility      */
+/* header grid configuration for phones */
+@media only screen and (min-width: 300px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 25%);
+  }
+  .container {
+    height: 1250px;
+  }
+  .aramark_container {
+    height: 750px;
+  }
+  .SA_container {
+    height: 550px;
+  }
+  .RS_container {
+    height: 700px;
+  }
+  .interspace_container {
+    height: 650px;
+  }
+}
+
+/* header grid configuration for tablets */
+@media only screen and (min-width: 700px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 35%);
+  }
+  .container {
+    height: 1100px;
+  }
+  .aramark_container {
+    height: 580px;
+  }
+  .SA_container {
+    height: 350px;
+  }
+  .RS_container {
+    height: 400px;
+  }
+  .interspace_container {
+    height: 450px;
+  }
+}
+
+/* header grid configuration for tablets */
+@media only screen and (min-width: 900px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 35%);
+  }
+  .container {
+    height: 870px;
+  }
+  .aramark_container {
+    height: 450px;
+  }
+  .SA_container {
+    height: 350px;
+  }
+  .RS_container {
+    height: 380px;
+  }
+  .interspace_container {
+    height: 400px;
+
+  }
+}
+
+/* header grid configuration for tablets */
+@media only screen and (min-width: 1050px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 35%);
+  }
+  .container {
+    height: 770px;
+  }
+  .aramark_container {
+    height: 400px;
+  }
+  .SA_container {
+    height: 320px;
+  }
+  .RS_container {
+    height: 350px;
+  }
+  .interspace_container {
+    height: 400px;
+  }
+}
+
+/* header grid configuration for computers */
+@media only screen and (min-width: 1200px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 35%);
+  }
+  .container {
+    height: 660px;
+  }
+  .aramark_container {
+    height: 380px;
+  }
+  .SA_container {
+    height: 250px;
+  }
+  .RS_container {
+    height: 300px;
+  }
+  .interspace_container {
+    height: 300px;
+  }
+}
+
+/* header grid configuration for computers */
+@media only screen and (min-width: 1500px) {
+  .header > h1 {
+    font-size: 60px;
+    transform: translate(0%, 35%);
+  }
+  .container {
+    height: 600px;
+  }
+  .aramark_container {
+    height: 300px;
+  }
+  .SA_container {
+    height: 250px;
+  }
+  .RS_container {
+    height: 250px;
+  }
+  .interspace_container {
+    height: 250px;
+  }
+}

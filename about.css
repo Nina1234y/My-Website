@@ -1,0 +1,379 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+/*************************/
+/*      Header           */
+.background_pic_about {
+  width: 100%;
+  min-height: 200px;
+  background-color: black;
+  float: right;
+  position: relative;
+}
+
+.header {
+  background-image:url('photos/flower.jpg');
+  background-size: cover;
+  background-repeat:no-repeat;
+  width: 100%;
+  height: 320px;
+  opacity: 0.2;
+  position: relative;
+}
+
+/* Header text settings */
+h1 {
+  color: #9D6108;
+  font-weight: bold;
+  text-align: center;
+  top: 60px;
+  width: 100%;
+  font-size: 70px;
+  opacity: 1;
+  position: absolute;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-family: Bodoni-Poster, Avenir, Arial, Helvetica, sans-serif;
+}
+
+/***************************/
+/*      Center Content     */
+.center_page_s1 {
+  background-color: transparent;
+  position: relative;
+  top: 50px;
+}
+
+.left_side_container {
+  width: 49%;
+  min-height: 400px;
+  background-color: transparent;
+  float: left;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.right_side_container {
+  width: 49%;
+  min-height: 400px;
+  background-color: transparent;
+  float: right;
+  position: relative;
+  margin-bottom: 200px;
+}
+/***************************/
+/*      description        */
+.description {
+    background-color: transparent;
+    width: 100%;
+    min-height: 200px;
+    top: 0px;
+    position: relative;
+}
+
+.vertical_left {
+  border-left: 6px solid white;
+  width: 6px;
+  left: 5%;
+  position:relative;
+  float: left;
+}
+
+.vertical_right {
+  border-right: 6px solid white;
+  width: 6px;
+  right: 5%;
+  position:relative;
+  float: right;
+}
+
+.vertical_center {
+  border-right: 1px solid red;
+  width: 1px;
+  height: 100px;
+  position:absolute;
+  left: 50%;
+}
+
+.description > p, ul {
+  text-align: justify;
+  color: white;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1.5;
+}
+
+/**********************/
+/*      SKILLS        */
+.all_skill {
+  width: 100%;
+  min-height: 300px;
+  position: relative;
+  background-color: transparent;
+}
+
+h2 {
+  color: #9D6108;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  opacity: 1;
+  position: relative;
+  background-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  font-family:  Arial, Helvetica, sans-serif;
+}
+
+.dot {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+.empty_dot {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  float: right;
+}
+
+/***************************************************/
+.accordion {
+  cursor: pointer;
+  padding: 0px;
+  border: 1px solid transparent;
+  text-align: justify;
+  outline: none;
+  transition: 0.3s;
+  margin-bottom: 5px;
+  width: 100%;
+  min-height: 10px;
+  position: relative;
+  float: left;
+  background-color: transparent;
+}
+
+.accordion > p {
+  text-align: justify;
+  vertical-align: middle;
+  color: white;
+  display: inline-block;
+  float: left;
+  margin-left: 20px;
+}
+
+.active, .accordion:hover {
+  background-color: #9D6108;
+}
+
+.panel_work {
+  width: 100%;
+  line-height: 2;
+  float: left;
+  display: none;
+  background-color: white;
+  margin-bottom: 10px;
+  position: relative;
+  min-width: 200px;
+  float: left;
+  text-align: justify;
+}
+
+.panel_text {
+  min-width: 200px;
+  float: left;
+  text-align: justify;
+}
+
+/*************************/
+/*      FOOTER           */
+.footer {
+  width: 100%;
+  height: 80px;
+  margin-top: 550px;
+  background-color: rgba(138, 134, 134,1);
+  bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.social_bar_work {
+  width: 100%;
+  height: 8%;
+  z-index: 1;
+  transform: translate(0%, 20px);
+  float: left;
+}
+
+/*************************/
+/*    Compatibility      */
+/* header grid configuration for computers */
+@media only screen and (min-width: 300px) {
+  .vertical_left {
+    height: 250px;
+  }
+  .vertical_right {
+    height: 250px;
+  }
+  .dot {
+    height: 12px;
+    width: 12px;
+    margin-right: 3px;
+    top: 15px;
+  }
+  .empty_dot {
+    height: 12px;
+    width: 12px;
+    margin-right: 3px;
+    top: 15px;
+  }
+  .accordion > p {
+    font-size: 15px;
+  }
+  .center_page_s1 {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .description > p, ul{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .panel_text {
+    font-size: 15px;
+    padding: 0px;
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .vertical_left {
+    height: 250px;
+  }
+  .vertical_right {
+    height: 250px;
+  }
+  .dot {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+    top: 18px;
+  }
+  .empty_dot {
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+    top: 18px;
+  }
+  .accordion > p {
+    font-size: 18px;
+  }
+  .center_page_s1 {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .description > p{
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .vertical_left {
+    height: 300px;
+  }
+  .vertical_right {
+    height: 300px;
+  }
+  .dot {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    top: 20px;
+  }
+  .empty_dot {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    top: 20px;
+  }
+  .accordion > p {
+    font-size: 20px;
+  }
+  .description > p{
+    font-size: 25px;
+  }
+  .panel_text {
+    font-size: 18px;
+    padding: 15px;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .vertical_left {
+    height: 320px;
+  }
+  .vertical_right {
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .vertical_left {
+    height: 300px;
+  }
+  .vertical_right {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .vertical_left {
+    height: 230px;
+  }
+  .vertical_right {
+    height: 230px;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    top: 25px;
+  }
+  .empty_dot {
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    top: 25px;
+  }
+  .accordion > p {
+    font-size: 25px;
+  }
+  .center_page_s1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .description > p, ul{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .panel_text {
+    font-size: 18px;
+    padding: 15px;
+    width: 80%;
+  }
+}
